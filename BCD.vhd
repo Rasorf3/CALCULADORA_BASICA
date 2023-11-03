@@ -12,7 +12,7 @@ architecture minters of BCD is
 	signal NS0, NS1, NS2, NS3 : std_logic;
 begin
 
-	NSO <= not(S0);
+	NS0 <= not(S0);
 	NS1 <= not(S1);
 	NS2 <= not(S2);
 	NS3 <= not(S3);
